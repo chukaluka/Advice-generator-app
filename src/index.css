@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Lobster&family=Outfit:wght@100;200;300&family=Raleway:ital,wght@1,200&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    font-size: 28px;
+    font-family: Manrope, sans-serif;
+}
+
+.wrapper {
+    background-color: hsl(217, 19%, 24%);
+    position: relative;
+}
+
+.wrapper-h1 {
+    color: hsl(150, 100%, 66%);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+.wrapper-p {
+    color: hsl(193, 38%, 86%);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+
+.dice-div {
+    background-color:hsl(150, 100%, 66%);
+    position: absolute;
+    color: ;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
